@@ -1,6 +1,6 @@
-# Module Template
+# Module - WebAssembly
 
-Starter project for MFE
+Proof of concept for WebAssembly integration into a React app utilising Module Federation
 
 ## Packages
 
@@ -18,7 +18,7 @@ tbc
 ## Docker
 
 Build image:
-`docker build -t mfe-template .`
+`docker build -t mfe-<NAME> .`
 
 Container:
-`docker run --name mfe-template -p 3001:3001 mfe-template`
+`docker run --name mfe-<NAME> -p <PORT>:<PORT> mfe-<NAME>`

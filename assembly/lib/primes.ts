@@ -25,7 +25,8 @@ export function findPrimes(limit: i32): i32 {
 
 NOTES:
 
-- unchecked is a best practice for writing high-performance AssemblyScript because it removes the bounds-checking overhead from every single iteration of the loop.
+- unchecked is a best practice for writing high-performance AssemblyScript because it removes
+the bounds-checking overhead from every single iteration of the loop.
 
 
 */

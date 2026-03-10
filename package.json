@@ -1,0 +1,30 @@
+{
+  "name": "react.mfe-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "4.2.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tailwindcss": "4.2.1"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "1.4.1",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.1",
+    "typescript": "5.9.3",
+    "vite": "7.3.1"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}

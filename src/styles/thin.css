@@ -1,0 +1,14 @@
+/* Imports the core engines without Preflight reset or Utilities as Shell provides these */
+/* 10/3 - Providing utilities here due to classes not being available */
+@import "tailwindcss/theme";
+@import "tailwindcss/utilities";
+
+/* Access to Shell's variables */
+@theme {
+    --color-primary: var(--shell-primary, #10b981);
+}
+
+/* Scoped component styles */
+.mfe-template {
+    @apply p-4 border rounded;
+}

@@ -1,0 +1,15 @@
+/* Gets theme logic as a reference */
+@import "tailwindcss/theme" reference;
+
+/* Theme variables */
+@theme {
+  --color-primary: var(--shell-primary, #10b981);
+}
+
+/* Wrap the utilities in the layer */
+@layer remote-ui {
+  @import "tailwindcss/utilities";
+}
+
+/* Scan instruction */
+@source "./src/**/*.{ts,tsx}";

@@ -4,7 +4,12 @@ import * as wasm from '../build/benchmark.js';
 import PrimeBenchmark from './components/PrimeBenchmark';
 import JourneyBenchmark from './components/JourneyBenchmark';
 import MathBenchmark from './components/MathBenchmark';
-import './styles/thin.css';
+
+if (import.meta.env.PROD) {
+  import('./styles/remote.css');
+} else {
+  import('./styles/local.css');
+}
 
 type BenchmarkMode = 'primes' | 'journey' | 'math';
 
